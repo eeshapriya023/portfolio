@@ -5,6 +5,7 @@ import "./Greeting.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import StyleContext from "../../contexts/StyleContext";
+import { greeting } from "../../portfolio";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
