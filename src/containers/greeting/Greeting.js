@@ -1,3 +1,4 @@
+import resume from "./resume.pdf";
 import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
@@ -42,25 +43,23 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
-                    className="download-link-button"
-                  >
-                    <Button text="Download my resume" />
-                  </a>
+  href={require("./resume.pdf")}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="download-link-button"
+>
+  <Button text="Download my resume" />
+</a>
                 )}
               </div>
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )}
+            <img
+  src={require("../../assets/images/eesha.jpeg")}
+  alt="Eesha Priya"
+  className="profile-image"
+/>
           </div>
         </div>
       </div>
