@@ -296,7 +296,7 @@ const achievementSection = {
     {
       title: "Hackfiniti: Hackathon Certification",
       subtitle: "Advanced to Round 2 in Yukthi Hackathon and Hackfinity 2025, showcasing coding and problem-solving skills.",
-      image: require("./assets/images/hack.jpeg"),
+      image: require("./assets/images/hacki.jpeg"),
       imageAlt: "PWA Logo",
       footerLink: [
       ]
